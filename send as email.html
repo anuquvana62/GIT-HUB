@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- CSS ONLY -->
+     <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            
+
+        }
+
+        td {
+            padding: 20px;
+        }
+
+        th {
+            text-align: left;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+
+        input{
+            width: 300px;
+        height: 30px;
+        }
+        button{
+            background-color: darkorange;
+            height: 50px;
+            width: 300px;
+            color: aliceblue;
+            font-size: 20px;
+        }
+        .msg{
+            width: 1000px;
+            height: 150px;
+        }
+        .sub{
+            width: 650px;
+        
+        }
+
+    </style>
+ 
+
+   
+<!-- HTML -->
+</head>
+
+<body>
+    <table>
+        <h1 style="font-size: 50px;">send us an Email</h1>
+        <form>
+            <tr>
+                <th> NAME*</th>
+                <th>EMAIL*</th>
+                <th>PHONE*</th>
+            </tr>
+            <tr>
+                <td> <input type="text"></td>
+                <td> <input type="text"></td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <th colspan="2">SUBJECT*</th>
+                <th>SERVICES</th>
+
+            </tr>
+            <tr>
+                <td colspan="2"><input class="sub" type="text"></td>
+                <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <th colspan="3">MESSAGE*</th>
+            </tr>
+            <tr>
+                <td colspan="3"> <input class="msg" type="text"></td>
+            </tr>
+            <tr>
+                <td><button>SUBMIT COMMENT</button></td>
+            </tr>
+        </form>
+        </form>
+    </table>
+</body>
+
+</html>
